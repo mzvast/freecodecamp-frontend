@@ -1,4 +1,3 @@
-This repo contains FreeCodeCamp frontend Alogrithm excercise done my me
-:)
+This repo contains FreeCodeCamp frontend alogrithm excercises and projects,written by me.
 
-To be continued!
+keep coding,keep happy:)
