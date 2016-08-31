@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="header">Pomodoro Clock</div>    
+    <header>
+        <div class="session">
+            <div class="ctrl">
+                <p>BREAK LENGTH</p>
+                <button id="bm">-</button>
+                <span id="bc">5</span>
+                <button id="bp">+</button>
+            </div>
+            <div class="ctrl">
+                <p>SESSION LENGTH</p>
+                <button id="sm">-</button>
+                <span id="sc">25</span>
+                <button id="sp">+</button>
+            </div>
+        </div>
+    </header>
+    <div class="timer">
+        <div class="frame"></div>
+        <p id="mode">session</p>
+        <p id="percentage">60%</p>
+        <div class="fill"></div>
+    </div>
+    <div class="story">
+    <i>User Story</i>
+     <p> I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.</p>
+    </div>
+    <div class="story">
+    <i>User Story</i>
+       <p>I can reset the clock for my next pomodoro.</p>
+    </div>
+    <div class="story">
+    <i>User Story</i>
+      <p>I can customize the length of each pomodoro.
+    </p>
+    </div>
+    <div id="debug">debug info</div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

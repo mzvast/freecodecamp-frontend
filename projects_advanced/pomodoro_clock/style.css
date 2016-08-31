@@ -1,0 +1,118 @@
+body{
+  height: 100%;
+  background-color: black;
+}
+.header{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: pink dashed 3px;
+  margin-top: 10vh;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: lightcoral;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.timer{  
+  position: relative;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: lightcoral solid 3px;
+  margin-top: 10vh;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  padding: 20px;
+  z-index: 20;
+  overflow: hidden;
+}
+.frame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: solid black 4px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.fill{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80%;
+  background-color: #1FE61F;
+  z-index: -1;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.session{
+  display: flex;
+  /* border: solid 1px white; */
+  width: 600px;
+}
+.ctrl{  
+  /* border: dashed white 1px; */
+  position: relative;
+  width: 300px;
+  text-align: center;
+}
+.ctrl p,.ctrl span{
+  color: white;
+  font-size: 1.3em;
+}
+
+button{
+  /* font-size: 2em; */
+  cursor: pointer;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: dashed white 1px;
+  background-color: pink;
+}
+
+#debug{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+.timer{
+  cursor: pointer;
+}
+
+.story{
+  /* width: 80vw; */
+  border-radius: 20px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 2em;
+  border: pink solid 2px;
+  padding: 1em;
+  background-color: lightgoldenrodyellow;
+
+}
+i{
+  font-weight: bold;
+  font-size: 20px;
+}
+.story p{
+  font-size: 1.3em
+}
